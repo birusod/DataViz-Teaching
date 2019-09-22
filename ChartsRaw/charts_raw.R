@@ -93,7 +93,7 @@ p_cloud <- ggplot(dat, aes(value, as.numeric(group), fill = group, color = group
 p <- ((p_bar + p_error + p_box + p_sina + p_bee + p_violin) * 
         scale_y_continuous("", limits = c(0, 16), breaks = seq(0, 15, by = 5), expand = c(0.01, 0.01))) 
 panel <- p + p_cloud + plot_layout(nrow = 1)
-ggsave("charts_raw_data.png", panel, width = 34, height = 7.5)
+ggsave(here::here("ChartsRaw", "charts_raw_panel.png"), panel, width = 34, height = 7.5)
 
 ## single plots
 ggsave(here::here("ChartsRaw", "charts_raw_1_bar.png"), 
