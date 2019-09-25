@@ -4,13 +4,13 @@ Collection of visualizations created for DataViz teaching
 
 ***
 
-Chart Choice and Raw Data:  
+**Chart Choice and Raw Data:**  
 
 ![](https://github.com/Z3tt/DataViz/blob/master/ChartsRaw/charts_raw_panel.png)
 
 ***
 
-[The Datasaurus Dozen](https://blog.revolutionanalytics.com/2017/05/the-datasaurus-dozen.html):  
+**[The Datasaurus Dozen](https://blog.revolutionanalytics.com/2017/05/the-datasaurus-dozen.html):**
 
 ![](https://github.com/Z3tt/DataViz/blob/master/Datasaurus/datasauRus.gif)
 Based on the [{datasauRus} package by Steph Locke](https://github.com/lockedata/datasauRus/issues) and [this blog post by Thomas Westlake](https://r-mageddon.netlify.com/post/reanimating-the-datasaurus/).
