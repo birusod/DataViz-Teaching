@@ -61,6 +61,10 @@ p_error <- dat %>%
 p_box <- g + geom_boxplot(fill = "white", size = 0.8) +
   labs(title = "Box and Whiskers Plot", subtitle = "median, inter-quartile-range (IQR) and outliers")
 
+p_violin <- g + geom_violin(alpha = 0.3) + 
+  geom_boxplot(fill = "white", width = 0.08, outlier.color = NA, coef = 0) +
+  labs(title = "Violin Plot", subtitle = "distribution, median and IQR")
+
 p_sina <- g + geom_boxplot(color = "grey80", fill = NA, outlier.color = NA, size = 0.6) + 
   ggbeeswarm::geom_quasirandom(alpha = 0.4, size = 1.6, width = 0.25) +
   labs(title = "Jitter or Sina Plot", subtitle = "raw data (jittered)")
@@ -69,10 +73,6 @@ p_bee <- g + #geom_boxplot(fill = NA, outlier.color = NA) +
   ggbeeswarm::geom_beeswarm(size = 1.5, alpha = 0.6) +
   labs(title = "Beeswarm Plot", subtitle = "raw data without overlap")
 
-p_violin <- g + geom_violin(alpha = 0.3) + 
-  geom_boxplot(fill = "white", width = 0.08, outlier.color = NA, coef = 0) +
-  labs(title = "Violin Plot", subtitle = "distribution, median and IQR")
-  
 p_cloud <- ggplot(dat, aes(value, as.numeric(group), fill = group, color = group)) + 
   tidybayes::geom_halfeyeh(color = "grey20", scale = 0.5, alpha = 0.5, 
                            point_alpha = 1, interval_alpha = 1) +
@@ -90,7 +90,7 @@ p_cloud <- ggplot(dat, aes(value, as.numeric(group), fill = group, color = group
         panel.grid.minor.x = element_line(color = "grey90", size = 0.3))
 
 ## full panel
-p <- ((p_bar + p_error + p_box + p_sina + p_bee + p_violin) * 
+p <- ((p_bar + p_error + p_box + p_violin + p_sina + p_bee) * 
         scale_y_continuous("", limits = c(0, 16), breaks = seq(0, 15, by = 5), expand = c(0.01, 0.01))) 
 panel <- p + p_cloud + plot_layout(nrow = 1)
 ggsave(here::here("ChartsRaw", "charts_raw_panel.png"), panel, width = 34, height = 7.5)
@@ -108,16 +108,16 @@ ggsave(here::here("ChartsRaw", "charts_raw_3_box.png"),
        p_box + labs(caption = "\nVisualization by Cédric Scherer"),
        width = 6.5, height = 7.5)
 
-ggsave(here::here("ChartsRaw", "charts_raw_4_sina.png"), 
+ggsave(here::here("ChartsRaw", "charts_raw_4_violin.png"), 
+       p_violin + labs(caption = "\nVisualization by Cédric Scherer"),
+       width = 6.5, height = 7.5)
+
+ggsave(here::here("ChartsRaw", "charts_raw_5_sina.png"), 
        p_sina + labs(caption = "\nVisualization by Cédric Scherer"),
        width = 6.5, height = 7.5)
 
-ggsave(here::here("ChartsRaw", "charts_raw_5_bee.png"), 
+ggsave(here::here("ChartsRaw", "charts_raw_6_bee.png"), 
        p_bee + labs(caption = "\nVisualization by Cédric Scherer"),
-       width = 6.5, height = 7.5)
-
-ggsave(here::here("ChartsRaw", "charts_raw_6_violin.png"), 
-       p_violin + labs(caption = "\nVisualization by Cédric Scherer"),
        width = 6.5, height = 7.5)
 
 ggsave(here::here("ChartsRaw", "charts_raw_7_cloud.png"), 
