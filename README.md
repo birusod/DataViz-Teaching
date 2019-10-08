@@ -1,6 +1,12 @@
 # DataViz
 
-Collection of visualizations created for DataViz teaching
+Collection of materials created for DataViz teaching.
+
+***
+
+**Presentations:**
+
+[Workshop at the IZW PhD Symposium 2019](https://github.com/Z3tt/DataViz/blob/master/Presentations/2019-09-26_IZW_DataVisualization_share.pdf)
 
 ***
 
@@ -24,10 +30,6 @@ Based on the [{datasauRus} package by Steph Locke](https://github.com/lockedata/
 ![](https://github.com/Z3tt/DataViz/blob/master/ChartOfCharts/ChartOfCharts_2019-09-26_IZW.png)
 
 ***
-
-**Presentations:**
-
-[Workshop at the IZW PhD Symposium 2019](https://github.com/Z3tt/DataViz/blob/master/Presentations/2019-09-26_IZW_DataVisualization_share.pdf)
 
 #### Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 <div style="width:300px; height:200px">
