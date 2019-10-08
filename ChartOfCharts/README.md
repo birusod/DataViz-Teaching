@@ -6,7 +6,7 @@ An interactive chart that I use in DataViz workshops. Participants fill a circle
 ![](https://github.com/Z3tt/DataViz/blob/master/ChartOfCharts/ChartOfCharts_Printout.png)
 
 **... and how it looks afterwards:**
-![](https://github.com/Z3tt/DataViz/blob/master/ChartOfCharts/ChartOfCharts_2019-09-26_IZW.png)
+![](https://github.com/Z3tt/DataViz/blob/master/ChartOfCharts/ChartOfCharts_2019-09-26_IZW.jpg)
 
 The pictograms were designed by by [Anna Vital](http://anna.vc/) and [Mark Vital](http://fundersandfounders.com/author/mark-vital/) - thank you!
 Please note that I removed and aggregated some of the chart types. For a full list have a look at the wonderful [visualizationuniverse homepage](http://visualizationuniverse.com/charts/?sortBy=volume&sortDir=desc).
