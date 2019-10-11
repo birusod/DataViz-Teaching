@@ -20,7 +20,7 @@ Collection of materials created for DataViz teaching.
 
 ![](https://github.com/Z3tt/DataViz/blob/master/Datasaurus/datasauRus.gif)
 
-Based on the [{datasauRus} package by Steph Locke](https://github.com/lockedata/datasauRus/issues) and [this blog post by Thomas Westlake](https://r-mageddon.netlify.com/post/reanimating-the-datasaurus/).
+Based on the [{datasauRus} package by Steph Locke](https://github.com/lockedata/datasauRus/issues) and a [blog post by Thomas Westlake](https://r-mageddon.netlify.com/post/reanimating-the-datasaurus/).
 
 ***
 
