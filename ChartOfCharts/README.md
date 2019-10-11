@@ -17,4 +17,4 @@ Please note that I removed and aggregated some of the chart types. For a full li
 <div style="width:300px; height:200px">
 <img src=https://camo.githubusercontent.com/00f7814990f36f84c5ea74cba887385d8a2f36be/68747470733a2f2f646f63732e636c6f7564706f7373652e636f6d2f696d616765732f63632d62792d6e632d73612e706e67 alt="" height="42">
 </div>
-In case you want to use the "Chart of Charts" printout, please give credit to the all people involved. Thus, please do not remove the footer.
+In case you want to use the "Chart of Charts" printout, please give credit to all the people involved. Thus, please do not remove the footer.

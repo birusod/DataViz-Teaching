@@ -29,6 +29,8 @@ Based on the [{datasauRus} package by Steph Locke](https://github.com/lockedata/
 ![](https://github.com/Z3tt/DataViz/blob/master/ChartOfCharts/ChartOfCharts_Printout.png)
 ![](https://github.com/Z3tt/DataViz/blob/master/ChartOfCharts/ChartOfCharts_2019-09-26_IZW.png)
 
+Pictorgrams taken from the [Visualization Universe](http://visualizationuniverse.com/charts/?sortBy=volume&sortDir=desc), created by [Anna Vital](http://anna.vc/) and [Mark Vital](http://fundersandfounders.com/author/mark-vital/) from [Adioma](http://www.labs.adioma.com/) and [Alexander Vushkan](https://www.alexzender.com/) with the assistance of the [Google News Lab](https://newsinitiative.withgoogle.com/training/): [Simon Rogers](https://www.simonrogers.net/) and [Alberto Cairo](http://www.thefunctionalart.com/) for art direction.
+
 ***
 
 #### Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
