@@ -1,4 +1,4 @@
-# DataViz
+# DataViz Teaching Material
 
 Collection of materials created for DataViz teaching.
 
